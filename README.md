@@ -1,3 +1,3 @@
 This bash script creates a Linux user given role last one.
 
-Python script was just used for convert xlsx file to csv (https://github.com/dilshod/xlsx2csv)
+Converting xlsx file to csv was done with a script xlsx2csv.py (https://github.com/dilshod/xlsx2csv)
