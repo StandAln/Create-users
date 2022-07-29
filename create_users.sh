@@ -28,7 +28,7 @@ create_user() {
 IFS=$oldIFS
 shell=/sbin/nologin
 #Create group
-groupadd $group
+groupadd $group &>/dev/null
 
 # Sudoers
 if [ "$group" = it ] || [ "$group" = security ]
